@@ -13,3 +13,13 @@ int main(void)
 
     return 0;
 }
+
+/*
+- Declare two integer variables a and b with
+the initial values 3 and 4.
+- Declare two other integer variables c and d.
+- Let a be a plus 5.
+- Let d be the sum of a and b multiplied with
+5 and c be the remainder of d divided by 13.
+- Print the values of a,b,c and d.
+*/
