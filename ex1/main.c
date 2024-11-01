@@ -1,3 +1,4 @@
+// variables exercise solution
 #include <stdio.h>
 
 int main(void)

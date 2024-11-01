@@ -1,15 +1,14 @@
 // typecasting
 #include <stdio.h>
 
+// REMINDER: compiler sometimes does implicit conversions
+
 int main(void)
 {
-    int a = 3, b = 4, c, d;
+    int x = 5, y = 2;
+    float z = (float)x / y;
 
-    a += 5;
-    d = (a + b) * 5;
-    c = d % 13;
-
-    printf("a = %d\nb = %d\nc = %d\nd = %d\n", a, b, c, d);
+    printf("%f", z);
 
     return 0;
 }
