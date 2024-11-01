@@ -6,9 +6,9 @@
 int main(void)
 {
     int x = 5, y = 2;
-    float z = (float)x / y;
+    float z = ((float)x) / y;
 
-    printf("%f", z);
+    printf("%f\n", z);
 
     return 0;
 }
